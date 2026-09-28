@@ -1,0 +1,22 @@
+# Dépendances Node.js
+node_modules/
+
+# Fichiers de variables d'environnement (secrets & clés)
+.env
+.env.local
+.env.*.local
+
+# Journaux d'erreurs et de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Fichiers système et de l'éditeur de code
+.DS_Store
+.vscode/
+.idea/
+
+# Fichiers de couverture de tests
+coverage/
