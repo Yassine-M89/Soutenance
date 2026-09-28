@@ -1,0 +1,29 @@
+.footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: inherit;
+  color: #fff;
+}
+
+
+.footer-text {
+  color: #ffffff !important;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  transition: color 0.2s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: #0d6efd !important; /* Bleu Bootstrap assorti au thème */
+}
+
+/* Style pour garder le footer en bas de page */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

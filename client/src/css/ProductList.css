@@ -1,0 +1,75 @@
+.product-list {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.product-list__title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #1a1a1a;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.product-card__body {
+  margin-bottom: 14px;
+}
+
+.product-card__name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 6px;
+  color: #1a1a1a;
+}
+
+.product-card__price {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0;
+}
+
+.product-card__button {
+  border: none;
+  border-radius: 6px;
+  background: #2f6fed;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.product-card__button:hover {
+  background: #2558c4;
+}
+
+.product-card__button:focus-visible {
+  outline: 2px solid #2f6fed;
+  outline-offset: 2px;
+}
+
+/* Utilisation de CSS Grid (Automatique et Responsive) */
+.product-list__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Crée des colonnes automatiques */
+  gap: 20px; /* Espace entre les cartes produits */
+  padding: 20px;
+  justify-content: center;
+}
+
+/* Style de carte produit */
+.product-card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
